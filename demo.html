@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>封装一个自己的类似jquery的JS库</title>
+</head>
+<body>
+  <div>001</div>
+  <div>002</div>
+  <div>003</div>
+  <p>1111</p>
+  <span class="desc">2222</span>
+  <div id="box" style="width: 200px;height:200px;"></div>
+</body>
+<script type="text/javascript" src="my-jquery.1.0.0.js"></script>
+<script type="text/javascript">
+  _$('div').css('color', 'red');
+  _$('p').css('color', 'pink');
+  _$('.desc').css('color', 'lightgreen');
+  _$('#box').css('background', 'orange');
+</script>
+</html>
